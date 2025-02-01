@@ -1,12 +1,11 @@
 import HomeIntroSection from "./home/intro-section";
+import SecondSection from "./home/second-section";
 
 export default function HomePage() {
   return (
     <>
       <HomeIntroSection />
-      <h1>aaa</h1>
-      <h1>aaa</h1>
-      <h1>aaa</h1>
+      <SecondSection />
     </>
   );
 }
