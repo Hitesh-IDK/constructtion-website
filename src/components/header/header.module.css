@@ -1,0 +1,25 @@
+.header {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+
+  padding: 0 2rem;
+
+  color: white;
+  position: absolute;
+}
+
+.logo_img {
+  width: 102px;
+}
+
+.header_link {
+  text-decoration: none;
+  margin: 0 1rem;
+
+  font-weight: 300;
+  font-size: 1.4rem;
+  opacity: 0.95;
+}
