@@ -12,7 +12,7 @@ export default function MainTitleSection(props: props) {
   const { title_info, title, description, image } = props;
 
   return (
-    <div className={styles.main_section}>
+    <div className={styles.main_section} id="#">
       <div className={styles.title_info}>{title_info}</div>
       <div className={styles.title}>{title}</div>
       <div className={styles.description}>{description}</div>

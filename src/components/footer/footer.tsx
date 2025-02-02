@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   const services: string[][] = [
-    ["About Us", "#"],
-    ["Portfolio", "#"],
-    ["Testimonials", "#"],
-    ["Contact", "#"],
+    ["About Us", "/about/#"],
+    ["Portfolio", "/portfolio/#"],
+    ["Testimonials", "/testimonials"],
+    ["Contact", "/contact"],
   ];
 
   const socials: string[][] = [

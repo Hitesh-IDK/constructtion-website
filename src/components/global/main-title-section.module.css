@@ -46,12 +46,14 @@
   line-height: 1.25em;
   font-size: 1.2rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .title {
   line-height: 1.4em;
   font-size: 7rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .description {

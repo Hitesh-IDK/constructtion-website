@@ -17,11 +17,11 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems: string[][] = [
-    ["Home", "#"],
-    ["Portfolio", "#"],
-    ["About", "#"],
-    ["Testimonials", "#"],
-    ["Contact", "#"],
+    ["Home", "/"],
+    ["Portfolio", "/portfolio"],
+    ["About", "/about"],
+    ["Testimonials", "/testimonials"],
+    ["Contact", "/contact"],
   ];
 
   return (
