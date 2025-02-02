@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutPage from "./components/about-page";
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 import HomePage from "./components/home-page";
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       <Header />
-      <PortfolioPage />
+      {/* <HomePage /> */}
+      <AboutPage />
       <Footer />
     </>
   );

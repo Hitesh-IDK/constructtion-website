@@ -3,7 +3,7 @@ import lounge from "../assets/lounge.png";
 import Projects from "./portfolio/projects";
 
 export default function PortfolioPage() {
-  const title_info: string = "Our Exclusive Clien";
+  const title_info: string = "Our Exclusive Client";
   const title: string = "Project Sites";
   const description: string =
     "We Have Solutions for All Your Space Related Issues!";
