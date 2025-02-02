@@ -7,13 +7,25 @@ export default function BestRanked() {
     <div className={styles.best_ranked}>
       <div>Best Ranked By</div>
 
-      <div>
-        <img src={fake_logo_1} alt="award icon" />
-        <img src={fake_logo_2} alt="award icon" />
-        <img src={fake_logo_1} alt="award icon" />
-        <img src={fake_logo_2} alt="award icon" />
-        <img src={fake_logo_1} alt="award icon" />
-        <img src={fake_logo_2} alt="award icon" />
+      <div className={styles.awards}>
+        <div>
+          <img src={fake_logo_1} alt="award icon" className={styles.award} />
+        </div>
+        <div>
+          <img src={fake_logo_2} alt="award icon" className={styles.award} />
+        </div>
+        <div>
+          <img src={fake_logo_1} alt="award icon" className={styles.award} />
+        </div>
+        <div>
+          <img src={fake_logo_2} alt="award icon" className={styles.award} />
+        </div>
+        <div>
+          <img src={fake_logo_1} alt="award icon" className={styles.award} />
+        </div>
+        <div>
+          <img src={fake_logo_2} alt="award icon" className={styles.award} />
+        </div>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import BestRanked from "./global/best-ranked";
 import FifthSection from "./home/fifth-section";
 import FourthSection from "./home/fourth-section";
 import HomeIntroSection from "./home/intro-section";
@@ -12,6 +13,7 @@ export default function HomePage() {
       <ThirdSection />
       <FourthSection />
       <FifthSection />
+      <BestRanked />
     </>
   );
 }

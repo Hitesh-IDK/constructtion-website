@@ -1,0 +1,26 @@
+.best_ranked {
+  border-top: 1px solid #00000008;
+  padding: 6.4rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.awards {
+  margin-top: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.award {
+  display: inline-flex;
+}
