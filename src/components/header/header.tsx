@@ -11,10 +11,14 @@ import {
   NavbarMenuItem,
   NavbarMenuToggle,
 } from "@heroui/react";
-import { useState } from "react";
 
-export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+interface props {
+  isMenuOpen: boolean;
+  setIsMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+export default function Header(props: props) {
+  const { isMenuOpen, setIsMenuOpen } = props;
 
   const menuItems: string[][] = [
     ["Home", "/"],
@@ -29,14 +33,16 @@ export default function Header() {
       <Navbar onMenuOpenChange={setIsMenuOpen} className={styles.header}>
         <NavbarContent>
           <NavbarBrand>
-            <img src={logo} alt="Logo" className={styles.logo_img} />
+            <Link to="/">
+              <img src={logo} alt="Logo" className={styles.logo_img} />
+            </Link>
           </NavbarBrand>
         </NavbarContent>
 
         <NavbarContent justify="end">
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            className="sm:hidden"
+            className="sm:hidden p-2"
           />
         </NavbarContent>
 
@@ -52,8 +58,13 @@ export default function Header() {
 
         <NavbarMenu>
           {menuItems.map((item, index) => (
-            <NavbarMenuItem key={`${index}`}>
-              <Link to={item[1]}>{item[0]}</Link>
+            <NavbarMenuItem
+              key={`${index}`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <Link to={item[1]} className={styles.modal_link}>
+                {item[0]}
+              </Link>
             </NavbarMenuItem>
           ))}
         </NavbarMenu>
