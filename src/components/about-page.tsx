@@ -3,6 +3,7 @@ import lounge_2 from "../assets/lounge-2.png";
 import BestRanked from "./global/best-ranked";
 import CoFounder from "./about/co-founder";
 import ProjectStatus from "./about/project-status";
+import OurTeam from "./about/our-team";
 
 export default function AboutPage() {
   const title_info: string = "A Few Words About";
@@ -20,6 +21,7 @@ export default function AboutPage() {
 
       <CoFounder />
       <ProjectStatus />
+      <OurTeam />
 
       <BestRanked />
     </>

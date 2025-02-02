@@ -32,4 +32,12 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 300;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .project_status_container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
 }
