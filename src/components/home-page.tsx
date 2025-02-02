@@ -1,3 +1,4 @@
+import FifthSection from "./home/fifth-section";
 import FourthSection from "./home/fourth-section";
 import HomeIntroSection from "./home/intro-section";
 import SecondSection from "./home/second-section";
@@ -10,6 +11,7 @@ export default function HomePage() {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <FifthSection />
     </>
   );
 }
