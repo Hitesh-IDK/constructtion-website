@@ -1,18 +1,25 @@
 import styles from "./main-title-section.module.css";
-import lounge from "../../assets/lounge.png";
 
-export default function MainTitleSection() {
+interface props {
+  title_info: string;
+  title: string;
+  description: string;
+
+  image: string;
+}
+
+export default function MainTitleSection(props: props) {
+  const { title_info, title, description, image } = props;
+
   return (
     <div className={styles.main_section}>
-      <div className={styles.title_info}>Our Exclusive Client</div>
-      <div className={styles.title}>Project Sites</div>
-      <div className={styles.description}>
-        We Have Solutions for All Your Space Related Issues!
-      </div>
+      <div className={styles.title_info}>{title_info}</div>
+      <div className={styles.title}>{title}</div>
+      <div className={styles.description}>{description}</div>
 
       <div className={styles.main_img_container}>
         <div></div>
-        <img src={lounge} alt="" className={styles.main_img} />
+        <img src={image} alt="main image" className={styles.main_img} />
       </div>
     </div>
   );
