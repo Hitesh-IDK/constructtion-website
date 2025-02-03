@@ -84,3 +84,30 @@
   font-size: 1.5rem;
   line-height: 1.7;
 }
+
+@media screen and (max-width: 1250px) {
+  .contact_details {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .details_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title_container {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .social_links {
+    justify-content: flex-start;
+  }
+
+  .details_container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -9,8 +9,6 @@ interface props {
 export default function Wrapper({ children, setIsOpen }: props) {
   const location = useLocation();
   useLayoutEffect(() => {
-    console.log("Running");
-
     document.documentElement.scrollTo(0, 0);
     setIsOpen(false);
   }, [location.pathname, setIsOpen]);
