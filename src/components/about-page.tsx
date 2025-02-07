@@ -7,8 +7,9 @@ import OurTeam from "./about/our-team";
 
 export default function AboutPage() {
   const title_info: string = "A Few Words About";
-  const title: string = "Our Firm";
-  const description: string = "Award Winning Interior Design Firm in New York";
+  const title: string = "Our Company";
+  const description: string =
+    "We don’t just build structures; we create foundations for a better tomorrow";
 
   return (
     <>

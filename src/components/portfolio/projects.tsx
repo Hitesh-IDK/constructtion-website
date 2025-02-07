@@ -10,10 +10,10 @@ export default function Projects() {
     <div className={styles.projects}>
       <div className={styles.project}>
         <div className={styles.project_content}>
-          <h3 className={styles.project_title}>Living Room</h3>
+          <h3 className={styles.project_title}>Adittri Lotus</h3>
           <p className={styles.project_description}>
-            This is a short description elaborating the service you have
-            mentioned above.
+            A glimpse of excellence – Explore our latest masterpiece, Adittri
+            Lotus, where innovation meets perfection.
           </p>
         </div>
         <img src={living_1} alt="living room 1" className={styles.image} />
@@ -23,7 +23,7 @@ export default function Projects() {
         <img src={living_5} alt="living room 5" className={styles.image} />
 
         <div className={styles.background_text}>
-          <h2>Living Room</h2>
+          <h2>Adittri Lotus</h2>
         </div>
       </div>
 

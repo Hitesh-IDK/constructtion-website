@@ -14,13 +14,10 @@ export default function ContactForm() {
         <h2 className={styles.title}>Let's Discuss About Your Spaces!</h2>
         <div className={styles.description}>
           <p>
-            A descriptive paragraph that tells clients how good you are and
-            proves that you are the best choice that they’ve made.
+            Have a project in mind or need more information? Fill out the form
+            below, and our team will get back to you shortly.
           </p>
-          <p>
-            This paragraph is also for those who are looking out for a reliable
-            interior design firm.
-          </p>
+          <p>Let’s build something extraordinary together!</p>
         </div>
 
         <ul className={styles.content_list}>

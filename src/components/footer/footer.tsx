@@ -24,8 +24,8 @@ export default function Footer() {
           <div className={styles.first_section}>
             <img src={logo} alt="logo" className={styles.logo} />
             <p className={styles.description}>
-              A descriptive paragraph that tells clients how good you are and
-              proves that you are the best choice.
+              RNS Constructions transforms ideas into reality, ensuring that
+              every structure stands strong for generations to come.
             </p>
           </div>
           <div className={styles.second_section}>
@@ -55,15 +55,15 @@ export default function Footer() {
           <div className={styles.fourth_section}>
             <h3 className={styles.title}>Contact Info</h3>
             <address>123 Fifth Avenue, Lane no 17, New York NY 688101.</address>
-            <div>123-456-7890/91</div>
-            <div>contact@example.com</div>
+            <div>+91 9900924999, +91 9886199889</div>
+            <div>sunita.rnsc@gmail.com rajesh.rnsc@gmail.com</div>
           </div>
         </div>
       </footer>
       <div className={styles.copyright}>
         <div className={styles.copyright_container}>
-          <div>Copyright © 2025 Hitesh Design Firm</div>
-          <div>Powered by Hitesh Design Firm</div>
+          <div>Copyright © 2025 RNS Constructions</div>
+          <div>Powered by RNS Design Firm</div>
         </div>
       </div>
     </>

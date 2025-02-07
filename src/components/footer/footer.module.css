@@ -55,6 +55,12 @@
   margin: auto;
 }
 
+.fourth_section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 @media screen and (max-width: 1300px) {
   .footer_container,
   .copyright_container {

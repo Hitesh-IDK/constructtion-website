@@ -12,27 +12,26 @@ export default function ThirdSection() {
           <h3 className={styles.title}>Award Winning Projects</h3>
           <div className={styles.description}>
             <p>
-              A descriptive paragraph that tells clients how good you are and
-              proves that you are the best choice that they’ve made.
+              With a legacy of successful projects and a commitment to timely
+              delivery, RNS Constructions transforms ideas into reality,
+              ensuring that every structure stands strong for generations to
+              come.
             </p>
-            <p>
-              This paragraph is also for those who are looking out for a
-              reliable interior design firm.
-            </p>
+            <p>Built on trust, designed for the future.</p>
           </div>
 
           <ol className={styles.content_list}>
             <li>
               <CheckCircleIcon className="h-7 w-7" color="#f6a131" />
-              NY Interior Design Firm of The Year - 2020
+              Adittri Lotus (KAIWARA) - 2025
             </li>
             <li>
               <CheckCircleIcon className="h-7 w-7" color="#f6a131" />
-              US Best Interior Firm - 2020
+              Luxrious Apartments With Amenities
             </li>
             <li>
               <CheckCircleIcon className="h-7 w-7" color="#f6a131" />
-              International Design Awards Nominee - 2019
+              RERA Approved Project
             </li>
           </ol>
 

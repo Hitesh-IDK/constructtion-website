@@ -7,10 +7,10 @@ export default function SecondSection() {
   return (
     <div className={styles.second_section}>
       <div className={styles.quote_section}>
-        <h1>Interior Design</h1>
+        <h1>Construction Design</h1>
         <h2>
-          Interior Design Doesn't Have to Be Expensive or Complicated! It Should
-          Be Smart & User Friendly
+          We don’t just build structures; we create foundations for a better
+          tomorrow
         </h2>
       </div>
 
@@ -18,7 +18,7 @@ export default function SecondSection() {
         <div className={styles.left_section}>
           <div className={styles.left_container}>
             <img src={man_with_woman} alt="Man and Woman in suit" />
-            <p>Interior Solutions Owner & Co-Owner</p>
+            <p>RNS Constructions Owner & Co owner</p>
           </div>
         </div>
 
@@ -28,18 +28,19 @@ export default function SecondSection() {
               <div>Established MMXVIII</div>
             </div>
             <h3 className={styles.right_title}>
-              Interior Design Firm Based in New York
+              Construction Company Based In Bangalore
             </h3>
             <p className={styles.right_description}>
-              A descriptive paragraph that tells clients how good you are and
-              proves that you are the best choice that they’ve made. This
-              paragraph is also for those who are looking out for a reliable
-              interior design firm.
+              At RNS Constructions, we are more than just builders—we are
+              creators of lasting landmarks. With a passion for innovation and a
+              commitment to quality, we specialize in delivering world-class
+              residential, commercial, and infrastructure projects. Our expert
+              team ensures that every structure reflects precision, durability,
+              and sustainability.
             </p>
             <p className={styles.right_description}>
-              You can use a few enticing words and flaunt your capabilities that
-              will attract future clients and encourage them to hire you right
-              away.
+              Driven by integrity, powered by expertise—building a better
+              future, one project at a time.
             </p>
 
             <Link to="#" className={styles.right_button}>

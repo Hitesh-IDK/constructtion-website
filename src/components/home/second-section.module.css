@@ -11,7 +11,7 @@
 }
 
 .second_section .quote_section h1 {
-  font-size: 12rem;
+  font-size: 10rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #00000004;
@@ -115,6 +115,7 @@
 @media screen and (max-width: 1000px) {
   .second_section .quote_section h1 {
     top: 25%;
+    font-size: 8rem;
   }
 
   .design_section {
@@ -153,7 +154,7 @@
   }
 
   .second_section .quote_section h1 {
-    font-size: 8rem;
+    font-size: 5rem;
   }
 
   .right_container {

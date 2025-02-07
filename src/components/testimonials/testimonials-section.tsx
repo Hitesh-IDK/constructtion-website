@@ -9,21 +9,21 @@ export default function TestimonialsSection() {
       {
         name: "Michelle P",
         description:
-          "Aptent mus quisque porttitor convallis tempora eaque blandit phasellus perspiciatis lectus, exercitationem Porttitor consectetur fugit ligula officiis rhoncus litora deserunt ratione curae beatae! Augue faucibu",
+          "Working with RNS Constructions was an absolute pleasure. They provided us with a seamless experience from start to finish. The team was always available for discussions, provided valuable insights, and incorporated all our requirements with precision.",
         image: fake_user,
       },
 
       {
         name: "John J",
         description:
-          "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis dolor. Earum fugiat cillum harum!",
+          "Exceptional craftsmanship and dedication! RNS Constructions delivered our dream home with top-notch quality and within budget.",
         image: fake_user,
       },
 
       {
         name: "Smith T",
         description:
-          "Aptent mus quisque porttitor convallis tempora eaque blandit phasel usr spici atis lectus, excitationem.",
+          "Professionalism, integrity, and excellence—RNS Constructions truly sets the benchmark for the construction industry!",
         image: fake_user,
       },
     ];
@@ -33,19 +33,19 @@ export default function TestimonialsSection() {
       {
         name: "John J",
         description:
-          "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis dolor. Similique at tellus magna Adipisci facilisis optio incidunt, corrupti minus nibh sequi convallis magnam neque gravida vel consequatur mi iaculis magnis felis eleifend laboriosam explicabo fuga. Earum fugiat cillum harum!",
+          "We collaborated with RNS Constructions for a large-scale industrial project, and I must say, their expertise in handling complex projects is commendable. The team was highly professional, knowledgeable, and always ready to address any concerns. They followed all safety regulations and ensured that the construction was done in an environmentally responsible manner. Their ability to deliver within budget and on time, without compromising on structural integrity, is truly remarkable.",
         image: fake_user,
       },
       {
         name: "John J",
         description:
-          " Aptent mus quisque porttitor convallis tempora eaque blandit phasellus perspiciatis lectus, exercitationem.",
+          "We partnered with RNS Constructions for our residential project, and they delivered on every promise. Reliable, efficient, and skilled!",
         image: fake_user,
       },
       {
         name: "Smith T",
         description:
-          "Mvallis tempora eaque blandit phasellus perspiciatis lectus, exercitationem Porttitor consectetur fugit ligula officiis rhoncus litora deserunt ratione curae beatae! Augue faucibu",
+          "Their commitment to customer satisfaction is evident in every aspect of their work. If you are looking for a trustworthy construction company, RNS Constructions is the way to go!",
         image: fake_user,
       },
     ];

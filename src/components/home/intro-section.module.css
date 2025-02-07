@@ -14,6 +14,12 @@
   font-size: 1.6rem;
 }
 
+.intro_content {
+  width: 80rem;
+  /* display: flex;
+  flex-direction: column; */
+}
+
 .intro_title {
   line-height: 1.4;
   font-size: 7rem;
@@ -26,6 +32,7 @@
 .intro_description {
   opacity: 0.8;
 
+  width: 100%;
   margin-bottom: 2rem;
 }
 
@@ -114,6 +121,14 @@
   .intro_address {
     color: white;
   }
+
+  .intro_title {
+    font-size: 5rem;
+  }
+
+  .intro_description {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -136,7 +151,11 @@
 
   .intro_container {
     flex-direction: column;
-    /* gap: 0; */
+    width: 100%;
+  }
+
+  .intro_content {
+    width: 100%;
   }
 }
 

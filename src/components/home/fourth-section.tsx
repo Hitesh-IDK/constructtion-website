@@ -1,4 +1,11 @@
-import { CalendarDateRangeIcon } from "@heroicons/react/16/solid";
+import {
+  BriefcaseIcon,
+  BuildingOffice2Icon,
+  CalendarDateRangeIcon,
+  CircleStackIcon,
+  Cog6ToothIcon,
+  UserPlusIcon,
+} from "@heroicons/react/16/solid";
 import styles from "./fourth-section.module.css";
 
 export default function FourthSection() {
@@ -10,63 +17,65 @@ export default function FourthSection() {
       <div className={styles.feature_container}>
         <div className={styles.feature}>
           <div className={styles.icon_container}>
-            <CalendarDateRangeIcon className="h-14 w-14" color="#f6a131" />
+            <CircleStackIcon className="h-14 w-14" color="#f6a131" />
           </div>
-          <div className={styles.feature_title}>Building Planning</div>
+          <div className={styles.feature_title}>Unmatched Quality</div>
           <div className={styles.feature_description}>
-            This is a short description elaborating the service you have
-            mentioned above.
+            We use premium materials and advanced construction techniques to
+            ensure durability and excellence in every project.
           </div>
         </div>
 
         <div className={styles.feature}>
           <div className={styles.icon_container}>
-            <CalendarDateRangeIcon className="h-14 w-14" color="#f6a131" />
+            <BriefcaseIcon className="h-14 w-14" color="#f6a131" />
           </div>
-          <div className={styles.feature_title}>Building Planning</div>
+          <div className={styles.feature_title}>Experienced Professionals</div>
           <div className={styles.feature_description}>
-            This is a short description elaborating the service you have
-            mentioned above.
+            Our team of skilled engineers, architects, and project managers
+            bring years of expertise to deliver top-tier solutions.
           </div>
         </div>
         <div className={styles.feature}>
           <div className={styles.icon_container}>
             <CalendarDateRangeIcon className="h-14 w-14" color="#f6a131" />
           </div>
-          <div className={styles.feature_title}>Building Planning</div>
+          <div className={styles.feature_title}>Timely Project Delivery</div>
           <div className={styles.feature_description}>
-            This is a short description elaborating the service you have
-            mentioned above.
+            We value your time and ensure projects are completed on schedule
+            without compromising on quality.
           </div>
         </div>
         <div className={styles.feature}>
           <div className={styles.icon_container}>
-            <CalendarDateRangeIcon className="h-14 w-14" color="#f6a131" />
+            <Cog6ToothIcon className="h-14 w-14" color="#f6a131" />
           </div>
-          <div className={styles.feature_title}>Building Planning</div>
+          <div className={styles.feature_title}>
+            Innovative & Sustainable Designs
+          </div>
           <div className={styles.feature_description}>
-            This is a short description elaborating the service you have
-            mentioned above.
+            We integrate modern construction practices with eco-friendly
+            solutions for a sustainable future.
           </div>
         </div>
         <div className={styles.feature}>
           <div className={styles.icon_container}>
-            <CalendarDateRangeIcon className="h-14 w-14" color="#f6a131" />
+            <UserPlusIcon className="h-14 w-14" color="#f6a131" />
           </div>
-          <div className={styles.feature_title}>Building Planning</div>
+          <div className={styles.feature_title}>Customer-Centric Approach</div>
           <div className={styles.feature_description}>
-            This is a short description elaborating the service you have
-            mentioned above.
+            Your vision is our priority. We collaborate closely to ensure every
+            project meets your expectations.
           </div>
         </div>
         <div className={styles.feature}>
           <div className={styles.icon_container}>
-            <CalendarDateRangeIcon className="h-14 w-14" color="#f6a131" />
+            <BuildingOffice2Icon className="h-14 w-14" color="#f6a131" />
           </div>
-          <div className={styles.feature_title}>Building Planning</div>
+          <div className={styles.feature_title}>Strong Legacy & Trust</div>
           <div className={styles.feature_description}>
-            This is a short description elaborating the service you have
-            mentioned above.
+            With a proven track record of successful projects, we have earned
+            the trust of clients across industries.
           </div>
         </div>
       </div>

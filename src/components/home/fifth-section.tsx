@@ -17,19 +17,19 @@ export default function FifthSection() {
           <Testimonial
             name="Michelle P"
             image={fake_human}
-            description="Aptent mus quisque porttitor convallis tempora eaque blandit phasellus perspiciatis lectus, exercitationem Porttitor consectetur fugit ligula officiis rhoncus litora deserunt ratione curae beatae! Augue faucibu"
+            description="RNS Constructions has been a game-changer for our project. From the initial consultation to the final handover, their team demonstrated exceptional professionalism, transparency, and technical expertise. "
           />
         </div>
         <div className={styles.right_section}>
           <Testimonial
             name="John J"
             image={fake_human}
-            description="Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis dolor. Similique at tellus magna Adipisci facilisis optio incidunt, corrupti minus nibh sequi convallis magnam neque gravida vel consequatur mi iaculis magnis felis eleifend laboriosam explicabo fuga. Earum fugiat cillum harum!"
+            description="Choosing RNS Constructions was the best decision we made for our dream home. Their team took the time to understand our requirements and delivered a home that not only met but exceeded our expectations. The entire process was smooth, and we were constantly updated on the progress. Their attention to detail, innovative designs, and use of high-quality materials made all the difference."
           />{" "}
           <Testimonial
             name="Smith T"
             image={fake_human}
-            description="Aptent mus quisque porttitor convallis tempora eaque blandit phasellus perspiciatis lectus, exercitationem."
+            description="Professionalism, integrity, and excellence—RNS Constructions truly sets the benchmark for the construction industry!"
           />
         </div>
 

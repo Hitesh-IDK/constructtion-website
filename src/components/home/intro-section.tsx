@@ -11,8 +11,10 @@ export default function HomeIntroSection() {
         <div className={styles.intro_content}>
           <h1 className={styles.intro_title}>Modern Design Solutions</h1>
           <div className={styles.intro_description}>
-            A descriptive paragraph that tells clients how good you are and
-            proves that you are the best choice.
+            At RNS Constructions, we bring your vision to life with precision,
+            innovation, and unwavering commitment to quality. With years of
+            expertise in construction and infrastructure development, we deliver
+            projects that stand the test of time.
           </div>
 
           <Link to="#" className={styles.intro_button}>

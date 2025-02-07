@@ -14,9 +14,8 @@ export default function ContactDetails() {
         <div className={styles.content}>
           <h3 className={styles.title}>Contact Details</h3>
           <p className={styles.description}>
-            You can use a few enticing words and flaunt your capabilities that
-            will attract future clients and encourage them to hire you right
-            away.
+            We’re here to assist you with all your construction needs. Reach out
+            to us for inquiries, project consultations, or any assistance.
           </p>
         </div>
 
@@ -62,8 +61,8 @@ export default function ContactDetails() {
           </div>
           <div>
             <div className={styles.label}>Email Us</div>
-            <p className={styles.value}>contact@example.com</p>
-            <p className={styles.value}>hello@example.com</p>
+            <p className={styles.value}>sunita.rnsc@gmail.com</p>
+            <p className={styles.value}>rajesh.rnsc@gmail.com</p>
           </div>
         </div>
 
@@ -75,8 +74,8 @@ export default function ContactDetails() {
           </div>
           <div>
             <div className={styles.label}>Call Us</div>
-            <p className={styles.value}>123-456-7890</p>
-            <p className={styles.value}>123-456-7891</p>
+            <p className={styles.value}>+91 9900924999</p>
+            <p className={styles.value}>+91 9886199889</p>
           </div>
         </div>
       </div>
